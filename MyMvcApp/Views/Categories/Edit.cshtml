@@ -1,0 +1,8 @@
+@model Category
+
+@if (Model != null)
+{
+    <h3>Categoty: @Model.Name</h3>
+
+    <partial name="_Category" model="Model" />
+}

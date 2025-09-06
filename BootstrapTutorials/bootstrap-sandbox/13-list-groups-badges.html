@@ -12,44 +12,124 @@
       <h1 class="mb-5">List Groups & Badges</h1>
 
       <!-- Simple List Group -->
-      <ul class="">
-        <li class="">Tony Stark</li>
-        <li class="">Steve Rogers</li>
-        <li class="">Bruce Banner</li>
-        <li class="">Thor Odinson</li>
-        <li class="">Rick Jones</li>
+      <ul class="list-group">
+        <li class="list-group-item">Tony Stark</li>
+        <li class="list-group-item">Steve Rogers</li>
+        <li class="list-group-item">Bruce Banner</li>
+        <li class="list-group-item">Thor Odinson</li>
+        <li class="list-group-item">Rick Jones</li>
       </ul>
 
       <br /><br />
 
       <!-- Links -->
+      <div class="list-group">
+        <a href="#" class="list-group-item active"
+          >Active Item</a
+        >
+        <a href="#" class="list-group-item "
+          >Link Item</a
+        >
+        <a href="#" class="list-group-item"
+          >Link Item</a
+        >
+        <a href="#" class="list-group-item"
+          >Disabled Item</a>
+      </div>
 
       <br /><br />
 
+      <ul class="list-group">
+        <li class="list-group-item">
+          <a href="#">Tony Stark</a>
+        </li>
+        <li class="list-group-item">
+          <a href="#">Steve Rogers</a>
+        </li>
+        <li class="list-group-item">
+          <a href="#">Bruce Banner</a>
+        </li>
+        <li class="list-group-item">
+          <a href="#">Thor Odinson</a>
+        </li>
+        <li class="list-group-item">
+          <a href="#">Rick Jones</a>
+        </li>
+      </ul>
+      
+      <br /><br />
+
       <!-- Flush Style -->
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Tony Stark</li>
+        <li class="list-group-item">Steve Rogers</li>
+        <li class="list-group-item">Bruce Banner</li>
+        <li class="list-group-item">Thor Odinson</li>
+        <li class="list-group-item">Rick Jones</li>
+      </ul>
 
       <br /><br />
 
       <!-- Numbered List -->
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item">Tony Stark</li>
+        <li class="list-group-item">Steve Rogers</li>
+        <li class="list-group-item">Bruce Banner</li>
+        <li class="list-group-item">Thor Odinson</li>
+        <li class="list-group-item">Rick Jones</li>
+      </ol>
 
       <br /><br />
 
       <!-- Badges -->
-      <h1>Example heading</h1>
-      <h2>Example heading</h2>
-      <h3>Example heading</h3>
-      <h4>Example heading</h4>
-      <h5>Example heading</h5>
-      <h6>Example heading</h6>
+      <h1>Example heading <span class="badge bg-primary">New</span></h1>
+      <h2>Example heading <span class="badge bg-success">New</span></h2>
+      <h3>Example heading <span class="badge bg-danger">New</span></h3>
+      <h4>Example heading <span class="badge bg-secondary">New</span></h4>
+      <h5>Example heading <span class="badge bg-warning">New</span></h5>
+      <h6>Example heading <span class="badge bg-info">New</span></h6>
 
       <br /><br />
 
       <!-- In Button -->
-      <button type="button" class="btn btn-primary">Notifications</button>
+      <button type="button" class="btn btn-primary">
+        Notifications
+        <span class="badge text-bg-danger">New</span>
+      </button>
 
       <br /><br />
 
       <!-- Badges in List Group -->
+      <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Electronics</div>
+            Content for Electronics
+          </div>
+          <span class="badge bg-primary rounded-pill">14</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Fashion</div>
+            Content for Fashion
+          </div>
+          <span class="badge bg-primary rounded-pill">20</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Sports</div>
+            Content for Sports
+          </div>
+          <span class="badge bg-primary rounded-pill">30</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Erotica</div>
+            Content for Erotica
+          </div>
+          <span class="badge bg-primary rounded-pill">200</span>
+        </li>
+      </ul>
 
       <!-- Don't go past here -->
     </div>

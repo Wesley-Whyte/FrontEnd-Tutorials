@@ -13,9 +13,27 @@
       <h1 class="mb-5">Modal</h1>
 
       <!-- Modal Button -->
-      <button type="button" class="btn btn-primary">Open Modal</button>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Open Modal</button>
 
       <!-- Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="myModalLabel">Modal Heading</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              Modal body..
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
       <!-- Don't go past here -->
     </div>

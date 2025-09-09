@@ -1,0 +1,16 @@
+@media (max-width: 767px) {
+    .user-menu{
+        justify-content: center !important; 
+        margin-top: 20px;
+    }
+}
+
+.custom-img-container{
+    width: 8rem;
+    height: 8rem;
+}
+
+.custom-img{
+    width: 8rem;
+    height: 8rem;
+}

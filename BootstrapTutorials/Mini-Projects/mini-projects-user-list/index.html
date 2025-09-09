@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>User List</title>
+  </head>
+  <body>
+    <div class="container py-5">
+      <!--First row Toggle buttons-->
+      <header>
+        <div class="d-flex justify-content-end">
+          <div class="btn-group gap-0" role="group">
+            <button type="button" class="btn btn-secondary btn-sm" data-bs-theme-value="dark">Dark</button>
+            <button type="button" class="btn btn-light btn-sm" data-bs-theme-value="light">Light</button>
+          </div>
+        </div>
+        <!--Second row Header -->
+        <h2>Users</h2>
+        <!--Third Row NavBar-->
+        <div class="row">
+          <div class="col-md-4">
+            <input type="search" class="form-control form-control-lg" placeholder="Search Users" />
+          </div>
+          <div class="col-md-8 d-flex justify-content-end align-items-center user-menu">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reputation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-bg-primary rounded-3" href="#">New Users</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Editors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Moderators</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!--Cards for employees-->
+      <main>
+        <div class="container pt-5">
+          <!--Row 1-->
+          <div class="row">
+            <!--First Card-->
+            <div class="col-md-4">
+              <div class="card mb-3">
+                <div class="card-body d-flex gap-3">
+                  <div class="user-img">
+                    <img src="https://randomuser.me/api/portraits/men/75.jpg" class="img-fluid rounded-circle" />
+                  </div>
+                  <div class="user-info">
+                    <h4>John Doe</h4>
+                    <h6>Troy, MI</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sports</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Second Card-->
+            <div class="col-md-4">
+              <div class="card mb-3">
+                <div class="card-body d-flex gap-3">
+                  <div class="user-img">
+                    <img src="https://randomuser.me/api/portraits/women/75.jpg" class="img-fluid rounded-circle" />
+                  </div>
+                  <div class="user-info">
+                    <h4>Jane Doe</h4>
+                    <h6>Troy, MI</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sports</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Third Card-->
+            <div class="col-md-4">
+              <div class="card mb-3">
+                <div class="card-body d-flex gap-3">
+                  <div class="user-img">
+                    <img src="https://randomuser.me/api/portraits/men/76.jpg" class="img-fluid rounded-circle" />
+                  </div>
+                  <div class="user-info">
+                    <h4>John Doe</h4>
+                    <h6>Troy, MI</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sports</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Row 2-->
+          <div class="row row-cols-md-3 row-cols-sm-1">
+            <!--First Card-->
+            <div class="col">
+              <div class="card mb-3">
+                <div class="card-body d-flex gap-3">
+                  <div class="border rounded-circle custom-img-container">
+                    <img src="./images/grilledcheese.jpg" alt="" class="img-fluid rounded-circle custom-img" />
+                  </div>
+                  <div class="user-info">
+                    <h4>John Doe</h4>
+                    <h6>Troy, MI</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sports</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Second Card-->
+            <div class="col">
+              <div class="card mb-3">
+                <div class="card-body d-flex gap-3">
+                  <div class="border rounded-circle custom-img-container">
+                    <img src="./images/grilledcheese.jpg" alt="" class="img-fluid rounded-circle custom-img" />
+                  </div>
+                  <div class="user-info">
+                    <h4>John Doe</h4>
+                    <h6>Troy, MI</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sports</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Third Card-->
+            <div class="col">
+              <div class="card mb-3">
+                <div class="card-body d-flex gap-3">
+                  <div class="border rounded-circle custom-img-container">
+                    <img src="./images/grilledcheese.jpg" alt="" class="img-fluid rounded-circle custom-img"/>
+                  </div>
+                  <div class="user-info">
+                    <h4>John Doe</h4>
+                    <h6>Troy, MI</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sports</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Pagination-->
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+            </ul>
+          </nav>
+        </div>
+      </main>
+    </div>
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/darkmodetoggle.js"></script>
+  </body>
+</html>

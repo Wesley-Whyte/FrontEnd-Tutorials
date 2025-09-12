@@ -1,0 +1,47 @@
+.header {
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/intro-bg.jpg) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header .social {
+  bottom: 50px;
+}
+
+.header .roles {
+  font-family: lora-regular, serif;
+}
+
+.about-img {
+  width: 200px;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+  opacity: 0.8;
+}
+
+.services {
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg.jpg) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (max-width: 767px) {
+  .header .social i {
+    font-size: 30px;
+  }
+  .header .roles {
+    font-size: 10px !important;
+  }
+  .about-content {
+    flex-direction: column;
+  }
+  .stats .stat {
+    border-right: 0 !important;
+    margin-bottom: 40px;
+    border-bottom: var(--bs-dark) solid 1px;
+    padding-bottom: 20px;
+  }
+}

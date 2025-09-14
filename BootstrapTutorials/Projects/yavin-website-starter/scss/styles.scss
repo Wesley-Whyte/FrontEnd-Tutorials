@@ -1,0 +1,116 @@
+.xl-text {
+    font-size: 75px;
+}
+
+.btn-outline-secondary{
+    color: var(--bs-secondary);
+}
+
+.btn-outline-secondary:hover{
+    color: #fff;
+}
+
+.navbar {
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+    background: #fff;
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.to-top-btn{
+    position: fixed;
+    z-index: 20;
+    bottom: 20px;
+    right: 20px;
+    width: 52px;
+    height: 52px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    background-color: #44434a;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.show{
+    opacity: 1;
+}
+
+.to-top-btn:hover{
+    background-color: #1d1d21;
+}
+
+.to-top-btn .img{
+    margin-bottom: 0.25rem;
+    width: 18px;
+}
+
+.header {
+    background: 
+        url(../images/decoration-star.svg) calc(0% - 200px) center no-repeat,
+        url(../images/decoration-star.svg) calc(100% + 200px) center no-repeat;
+    background-size: 500px, 500px;
+}
+
+.details {
+    background:
+        url(../images/decoration-star.svg) calc(0% - 200px) center no-repeat;
+    background-size: 500px;
+}
+
+.details-2 {
+    background:
+        url(../images/decoration-star.svg) calc(100% + 200px) center no-repeat;
+    background-size: 500px;
+}
+
+.contact {
+    background:
+        url(../images/decoration-star.svg) calc(0% - 300px) center no-repeat;
+    background-size: 600px;
+}
+
+@media(max-width: 992px){
+    .xl-text {
+        font-size: 50px;
+    }
+
+    .navbar {
+        .btn-outline-secondary {
+            margin-top: 20px;
+        }
+    }
+
+    .header {
+        margin-top: 0px !important;
+        text-align: center;
+    }
+
+    .header .image-container {
+        margin-top: 30px;
+    }
+
+    .details-2 .image-container {
+        margin-top: 1.5rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .cards .col-md-4{
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media(max-width: 576px){
+    .header {
+        background:
+            url(../images/decoration-star.svg) calc(0% - 100px) center no-repeat,
+            url(../images/decoration-star.svg) calc(100% + 100px) center no-repeat;
+        background-size: 250px, 250px;
+    }
+}
